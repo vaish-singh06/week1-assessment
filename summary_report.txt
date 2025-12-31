@@ -1,0 +1,16 @@
+report = open("summary_report.txt", "w")
+
+report.write(f"Column Analyzed: {numeric_column}\n")
+report.write(f"Total Records: {total_records}\n")
+report.write(f"Missing Values: {missing_numeric}\n")
+
+report.write(f"Mean: {mean_val:.2f}\n")
+report.write(f"Median: {median_val:.2f}\n")
+report.write(f"Standard Deviation: {std_val:.2f}\n")
+
+report.write(f"Top 5 {categorical_column}:\n")
+
+for value, count in top_5:
+    report.write(f"{value} - {count}\n")
+
+report.close()

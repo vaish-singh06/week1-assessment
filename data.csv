@@ -1,0 +1,7 @@
+numeric_column = "Age"
+categorical_column = "City"
+
+numeric_index = header.index(numeric_column)
+categorical_index = header.index(categorical_column)
+
+print(numeric_index, categorical_index)
