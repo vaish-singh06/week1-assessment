@@ -1,7 +1,17 @@
-numeric_column = "Age"
-categorical_column = "City"
-
-numeric_index = header.index(numeric_column)
-categorical_index = header.index(categorical_column)
-
-print(numeric_index, categorical_index)
+Age,City,Salary
+23,Pune,42000
+25,Delhi,50000
+30,Mumbai,60000
+,Delhi,55000
+35,Bangalore,NA
+40,Mumbai,70000
+None,Chennai,65000
+28,Delhi,
+null,Bangalore,62000
+45,Mumbai,80000
+33,Delhi,58000
+29,Pune,52000
+41,Bangalore,72000
+NA,Hyderabad,61000
+37,Mumbai,69000
+26,Delhi,48000
